@@ -1,0 +1,13 @@
+server:
+  port: 9999
+ribbon:
+  eureka:
+    enabled: true
+endpoints:
+  routes:
+    enabled: true
+
+turbine:
+  aggregator:
+    clusterConfig: order-microservice
+  appConfig: order-microservice-client

@@ -1,0 +1,9 @@
+INSERT INTO customerorder(id,customerId,createdAt,balance) VALUES(1,1,'2018-07-09',2343);
+INSERT INTO customerorder(id,customerId,createdAt,balance) VALUES(2,2,'2018-07-09',3423);
+INSERT INTO orderproducts(orderId,productId,amount) VALUES(1,1,2);
+INSERT INTO orderproducts(orderId,productId,amount) VALUES(1,2,4);
+INSERT INTO orderproducts(orderId,productId,amount) VALUES(1,3,2);
+INSERT INTO orderproducts(orderId,productId,amount) VALUES(2,3,2);
+
+
+
